@@ -1,3 +1,3 @@
-Band Template
+<h1>Band Template</h1>
 
-Band Template
+<p>Band Template</p>
