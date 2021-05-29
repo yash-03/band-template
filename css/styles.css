@@ -1,0 +1,26 @@
+/**
+ * Tag
+ */
+a{
+    text-decoration:none;
+}
+
+/**
+ * Menu bar
+ */
+.menu-bar,.brand,.main-menu{
+    display:flex;
+}
+.brand-name{
+    padding:10px;
+}
+.menu-toggler{
+    display:none;
+}
+.main-menu{
+    list-style:none;
+}
+.main-menu > li a{
+    display:inline-block;
+    padding:10px;
+}
