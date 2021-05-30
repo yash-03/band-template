@@ -1,3 +1,10 @@
+/*
+ * Universal style
+ */
+*{
+    margin:0;
+    padding:0;
+}
 /**
  * Tag
  */
@@ -9,10 +16,19 @@ a{
  * Menu bar
  */
 .menu-bar,.brand,.main-menu{
+    justify-content: space-between;
     display:flex;
 }
+.menu-bar{
+    background-color: #000;
+}
+.menu-bar a{
+    text-shadow: 1px 1px #2b6f1e;
+    font-size:20px;
+    color:#fff;
+}
 .brand-name{
-    padding:10px;
+    padding:15px 20px;
 }
 .menu-toggler{
     display:none;
@@ -20,7 +36,24 @@ a{
 .main-menu{
     list-style:none;
 }
+.menu-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .main-menu > li a{
+    width:90px;
+    text-align:center;
     display:inline-block;
-    padding:10px;
+    padding:15px 10px;
+}
+
+.main-menu > li:last-child a{
+    padding-right:20px;
+}
+.main-menu > li a:hover{
+    border-bottom:2px solid #0f0;
+}
+.pr-20px{
+    padding-right:20px;
 }

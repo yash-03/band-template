@@ -1,0 +1,33 @@
+@media screen and (max-width:768px){
+    .menu-bar{
+        display:block;
+    }
+    .main-menu{
+        display:block;
+    }
+    .menu-toggler{
+        display:block;
+    }
+    .menu-toggler-icon{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    .toggler-button{
+        width: 50px;
+        height: 40px;
+        background-color: transparent;
+        margin-right: 20px;
+        margin-top: 7px;
+        border-radius: 5px;
+        border: 2px solid #fff;
+    }
+    .main-menu{
+        display:none;
+    }
+    .main-menu > li a{
+        padding-left:20px;
+        width:100%;
+        text-align:left;
+    }
+}
