@@ -8,7 +8,7 @@ menuTogglerBtn.addEventListener("click", () => {
 });
 
 //slider control
-function sliderHandle(){
+/*function sliderHandle(){
     let slides = document.getElementsByClassName("slide");
     let slideIndex = '';
 
@@ -28,4 +28,4 @@ function sliderHandle(){
         slides[0].classList.add('active')
     }
 }
-setInterval(sliderHandle,6000);
+setInterval(sliderHandle,6000);*/
