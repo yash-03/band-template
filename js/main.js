@@ -5,4 +5,27 @@ menuTogglerBtn.addEventListener("click", () => {
         menu.style.display = "none";
     else
         menu.style.display = "block";
-})
+});
+
+//slider control
+function sliderHandle(){
+    let slides = document.getElementsByClassName("slide");
+    let slideIndex = '';
+
+    for(let slide in slides) {
+        if(slides[slide] == slides.length) {
+            break;
+        }
+        if(slides[slide].classList.contains("active")){
+            slideIndex = slide;
+        }
+    }
+    let nextIndex = +slideIndex + 1;
+    slides[slideIndex].classList.remove('active')
+    if(nextIndex != slides.length) {
+        slides[nextIndex].classList.add('active')
+    } else {
+        slides[0].classList.add('active')
+    }
+}
+setInterval(sliderHandle,6000);

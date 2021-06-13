@@ -57,3 +57,89 @@ a{
 .pr-20px{
     padding-right:20px;
 }
+
+/*
+ * Header
+ */
+.slide{
+    display:none;
+    position:relative;
+    height:85vh;
+    opacity:0.8;
+}
+.slide > img{
+    width:100%;
+    height:100%;
+    object-fit: fill;
+}
+.slide > .slide-content{
+    color:#fff;
+    position:absolute;
+    bottom:10px;
+    width:100%;
+}
+.slide > .slide-content, .slide > .slide-content h1, .slide > .slide-content p{
+    text-align:center;
+}
+.active{
+    display:block;
+}
+.slide-animation-1{
+    animation-name: slide-animation-1;
+    animation-duration: 2s;
+}
+@keyframes slide-animation-1{
+    from {
+        opacity:0.2;
+        transform: translate(-100%);
+    }
+    to {
+        opacity:1;
+        transform: translate(0%);
+    }
+}
+
+.slide-animation-2{
+    animation-name: slide-animation-2;
+    animation-duration: 2s;
+}
+@keyframes slide-animation-2{
+    from {
+        opacity:0.2;
+        transform: translateY(-100%);
+    }
+    to {
+        opacity:1;
+        transform: translateY(0%);
+    }
+}
+
+.slide-animation-3{
+    animation-name: slide-animation-3;
+    animation-duration: 2s;
+}
+@keyframes slide-animation-3{
+    from {
+        opacity:0.2;
+        transform: translate(100%);
+    }
+    to {
+        opacity:1;
+        transform: translate(0%);
+    }
+}
+
+.slide-animation-4{
+    animation-name: slide-animation-4;
+    animation-duration: 2s;
+}
+@keyframes slide-animation-4{
+    from {
+        opacity:0.2;
+        transform: translateY(100%);
+    }
+    to {
+        opacity:1;
+        transform: translateY(0%);
+    }
+}
