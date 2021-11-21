@@ -219,8 +219,8 @@ a {
 
 /** common style**/
 .box {
-  border: 1px solid #eee;
-  padding: 2%;
+  border: 1px solid #ccc;
+  padding: 5%;
   box-shadow: 2px 2px 5px #ccc;
 }
 
@@ -228,4 +228,38 @@ a {
 .about {
   margin: auto;
   margin-top: 25px;
+  width: 80%;
+}
+.about > h2 {
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+.about > p {
+  text-align: justify;
+  line-height: 30px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+/**Footer section**/
+footer {
+  padding: 10px;
+  margin-top: 25px;
+  background-color: #000;
+  color: #fff;
+}
+footer > div {
+  text-align: center;
+  padding: 20px;
+}
+footer > div > i {
+  margin-left: 25px;
+}
+.fa-2x {
+  font-size: 1.5em;
+}
+footer > div > i:first-of-type {
+  margin-left: 0px;
+}
+footer > div > p {
+  line-height: 20px;
 }
