@@ -123,6 +123,7 @@ a {
 @keyframes slide-animation-1 {
   0% {
     transform: translate(-100%);
+    visibility: hidden;
   }
   25% {
     transform: translate(0%);
@@ -134,6 +135,7 @@ a {
   }
   75% {
     transform: translateY(100%);
+    visibility: hidden;
   }
   100% {
     transform: translateY(100%);
@@ -148,9 +150,11 @@ a {
 @keyframes slide-animation-2 {
   0% {
     transform: translateY(-100%);
+    visibility: hidden;
   }
   25% {
     transform: translateY(-100%);
+    visibility: hidden;
   }
   50% {
     transform: translateY(0%);
@@ -173,12 +177,15 @@ a {
 @keyframes slide-animation-3 {
   0% {
     transform: translate(100%);
+    visibility: hidden;
   }
   25% {
     transform: translate(100%);
+    visibility: hidden;
   }
   50% {
     transform: translate(100%);
+    visibility: hidden;
   }
   75% {
     transform: translate(0%);

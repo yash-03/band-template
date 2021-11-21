@@ -36,4 +36,7 @@
   .slide {
     height: 39vh;
   }
+  .slide-content > h1 {
+    font-size: 1.5em;
+  }
 }
