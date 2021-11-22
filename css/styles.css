@@ -247,6 +247,35 @@ a {
   font-size: 19px;
   margin-bottom: 10px;
 }
+/**contact section**/
+.contact-form {
+  width: 80%;
+  margin: auto;
+  margin-top: 15px;
+}
+.contact-form > h2 {
+  font-size: 35px;
+}
+.form-group {
+  margin-top: 10px;
+}
+.form-control {
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+  border: 1px solid #888;
+  border-radius: 6px;
+}
+.contact-button {
+  width: 25%;
+  color: #fff;
+  background: #0f0;
+  border: aliceblue;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-size: 20px;
+}
 /**Footer section**/
 footer {
   padding: 10px;
