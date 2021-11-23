@@ -247,6 +247,43 @@ a {
   font-size: 19px;
   margin-bottom: 10px;
 }
+/**event section**/
+.event {
+  margin-top: 20px;
+  padding: 20px 5%;
+  border: 1px solid #888;
+  background-color: #888;
+  color: #fff;
+}
+.event > h2 {
+  font-size: 36px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.cards > .card {
+  padding: 10px;
+}
+.card > h4,
+.card > p,
+.card > button {
+  margin-top: 5px;
+}
+.card > h4 {
+  color: #c73904;
+  font-size: 21px;
+}
+.card > button {
+  display: inline-block;
+  padding: 8px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #0f0;
+  border: 1px solid #0f0;
+}
 /**contact section**/
 .contact-form {
   width: 80%;
