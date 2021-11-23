@@ -251,8 +251,7 @@ a {
 .event {
   margin-top: 20px;
   padding: 20px 5%;
-  border: 1px solid #888;
-  background-color: #888;
+  background-color: #000;
   color: #fff;
 }
 .event > h2 {
