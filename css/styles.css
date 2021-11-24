@@ -256,6 +256,7 @@ a {
 }
 .event > h2 {
   font-size: 36px;
+  text-align: center;
 }
 .cards {
   display: flex;
@@ -265,6 +266,7 @@ a {
 }
 .cards > .card {
   padding: 10px;
+  width: 23%;
 }
 .card > h4,
 .card > p,
@@ -334,4 +336,20 @@ footer > div > i:first-of-type {
 }
 footer > div > p {
   line-height: 20px;
+}
+/**show button**/
+.show-more {
+  display: block;
+  padding: 9px;
+  margin: 10px auto;
+  width: 188px;
+  font-weight: bold;
+  text-shadow: 0 0 black;
+  background-color: #fff;
+  color: #c73905;
+  font-size: 16px;
+  border: 2px solid #c73905;
+}
+.show-more:hover {
+  background-color: #0f0;
 }
