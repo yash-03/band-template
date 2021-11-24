@@ -32,7 +32,7 @@ setInterval(sliderHandle,6000);*/
 document.querySelector("#show-more").addEventListener("click", () => {
   document.querySelector(".cards").innerHTML += `
   <div class="card">
-    <h4>First Music Event12</h4>
+    <h4>First Music Event</h4>
     <p>Dec 2011,20:12</p>
     <button>Book Now</button>
   </div>

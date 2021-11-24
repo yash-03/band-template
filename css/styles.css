@@ -267,6 +267,8 @@ a {
 .cards > .card {
   padding: 10px;
   width: 23%;
+  margin: auto;
+  border: none;
 }
 .card > h4,
 .card > p,
@@ -284,6 +286,7 @@ a {
   color: #fff;
   background-color: #0f0;
   border: 1px solid #0f0;
+  white-space: nowrap;
 }
 /**contact section**/
 .contact-form {
