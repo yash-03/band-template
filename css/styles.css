@@ -288,11 +288,29 @@ a {
   border: 1px solid #0f0;
   white-space: nowrap;
 }
+/**gallery section**/
+.gallery {
+  margin-top: 15px;
+}
+.gallery > h2 {
+  font-size: 36px;
+  text-align: center;
+}
+.gallery .cards {
+  justify-content: center;
+}
+.cards > .image-card {
+  width: 30%;
+  padding: 1%;
+}
+.cards > .image-card > img {
+  width: 100%;
+}
 /**contact section**/
 .contact-form {
   width: 80%;
   margin: auto;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .contact-form > h2 {
   font-size: 35px;
