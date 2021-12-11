@@ -52,3 +52,47 @@ document.querySelector("#show-more").addEventListener("click", () => {
     <button>Book Now</button>
   </div>`;
 });
+
+// menu active control
+const scrollBarMove = (name) => {
+  let body = document.body; // For Safari
+  let html = document.documentElement; // Chrome, Firefox, IE and Opera places the overflow at the html level, unless else is specified. Therefore, we use the documentElement property for these browsers
+  console.log("name", name);
+  switch (name) {
+    case "home":
+      body.scrollTop = 10;
+      html.scrollTop = 10;
+      break;
+    case "about":
+      body.scrollTop = 500;
+      html.scrollTop = 500;
+      break;
+    case "tour":
+      body.scrollTop = 900;
+      html.scrollTop = 900;
+      break;
+    case "event":
+      body.scrollTop = 1050;
+      html.scrollTop = 1050;
+      break;
+    case "gallery":
+      body.scrollTop = 1300;
+      html.scrollTop = 1300;
+      break;
+    case "contact":
+      body.scrollTop = 2000;
+      html.scrollTop = 2000;
+      break;
+  }
+};
+const menuLink = document.querySelectorAll(".menu-link");
+menuLink.forEach((link) => {
+  link.addEventListener("click", (e) => {
+    const menuActive = document.querySelector(".menu-active");
+    menuActive.classList.remove("menu-active");
+    e.preventDefault();
+    link.classList.add("menu-active");
+    const attr = link.getAttribute("data-name");
+    scrollBarMove(attr);
+  });
+});

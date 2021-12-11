@@ -20,9 +20,13 @@ a {
 .main-menu {
   justify-content: space-between;
   display: flex;
+  background-color: #000;
 }
 .menu-bar {
-  background-color: #000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 .menu-bar a {
   text-shadow: 1px 1px #2b6f1e;
