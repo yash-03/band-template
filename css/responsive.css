@@ -46,9 +46,16 @@
   .slide-content > h1 {
     font-size: 1.5em;
   }
+  .tour-cards > .card {
+    width: 100%;
+    margin: 10px auto;
+  }
   .cards > .card {
     width: 100%;
     border: 1px solid #fff;
     margin: 10px auto;
+  }
+  .contact-button {
+    width: 100%;
   }
 }
