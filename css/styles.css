@@ -247,6 +247,28 @@ a {
   font-size: 19px;
   margin-bottom: 10px;
 }
+/**tour section**/
+.tour {
+  margin-top: 20px;
+  padding: 20px 5%;
+}
+.tour > h2 {
+  font-size: 36px;
+  text-align: center;
+}
+.tour-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.tour-cards > .card {
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  padding: 10px;
+  width: 20%;
+  margin: 10px auto auto;
+}
 /**event section**/
 .event {
   margin-top: 20px;
